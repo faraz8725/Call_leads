@@ -1,0 +1,24 @@
+{
+  "name": "ai-voice-calling-saas-platform",
+  "version": "1.0.0",
+  "description": "Enterprise Autonomous AI Outbound Voice Calling SaaS Platform",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "build:client": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "ai-voice",
+    "outbound-calling",
+    "livekit",
+    "groq",
+    "deepgram",
+    "sarvam-ai",
+    "vobiz",
+    "mern-stack"
+  ],
+  "author": "Antigravity Team",
+  "license": "MIT"
+}
